@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #8d89ed;
+}
+.App {
+  font-family: Poppins;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.course-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 200px;
+  max-width: 620px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+/* Course information style */
+.course-information {
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+  background-color: #292660;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 8px 0 0 8px;
+}
+.course-information .course-description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-self: flex-start;
+}
+.course-information .course-description p {
+  color: #8f8da3;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+.course-information .course-description h2 {
+  color: white;
+  text-transform: capitalize;
+}
+.course-information .link {
+  text-decoration: none;
+  color: #8f8da3;
+  font-size: 0.8em;
+}
+/* Chapters Information */
+.chapter-information {
+  display: flex;
+  flex: 0.7;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  padding: 15px;
+  border-radius: 0 8px 8px 0;
+}
+.progress-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.chapter-level {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #8f8da3;
+}
+.container-styles {
+  height: 4px;
+  width: 150px;
+  background-color: #e0e0de;
+  border-radius: 50px;
+}
+.fillerclass-names {
+  height: 100%;
+  width: 66%;
+  background-color: #292660;
+  border-radius: inherit;
+  text-align: right;
+}
+.label-styles {
+  padding: 5;
+  color: "white";
+  font-weight: "bold";
+}
+.description-container {
+  width: 150px;
+  display: flex;
+  justify-content: flex-end;
+}
+#progress-desciption {
+  color: #8f8da3;
+  font-size: 0.7em;
+}
+.chapter-heading-container {
+  margin-bottom: 10px;
+}
+.button-container {
+  align-self: flex-end;
+}
+.chapter-information .button {
+  color: white;
+  background: #292660;
+  padding: 10px 22px;
+  border-radius: 22px;
+  border: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  box-shadow: rgba(50 50 93 0.25) 0px 13px 27px -5px,
+    rgba(0 0 0 0.3) 0px 8px 16px -8px;
+}
